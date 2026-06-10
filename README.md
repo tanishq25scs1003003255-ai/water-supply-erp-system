@@ -1,50 +1,148 @@
-# Welcome to your Expo app 👋
+# Water Supply ERP System
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+Water Supply ERP System is a production-ready mobile application developed to streamline and digitize the operations of a water supply business.
 
-1. Install dependencies
+The application helps manage customer records, water deliveries, supply history, billing operations, and business analytics from a single platform. It was developed to solve real operational challenges and is currently being used in a live business environment.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Features
 
-   ```bash
-   npx expo start
-   ```
+### Customer Management
 
-In the output, you'll find options to open the app in a
+* Add and manage customer records
+* Store customer details securely
+* Quick search and filtering
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Supply Management
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* Record daily water supplies
+* Maintain complete supply history
+* Edit and update supply records
 
-## Get a fresh project
+### Analytics Dashboard
 
-When you're ready, run:
+* Weekly analytics
+* Monthly analytics
+* Business performance insights
 
-```bash
-npm run reset-project
+### Billing System
+
+* Generate PDF bills
+* Maintain billing records
+* Simplify invoice management
+
+### Data Operations
+
+* Search functionality
+* Record filtering
+* Edit and delete operations
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* React Native
+* Expo
+* JavaScript
+
+### Backend & Database
+
+* Firebase
+
+### Development Tools
+
+* Git
+* GitHub
+* VS Code
+
+---
+
+## Project Structure
+
+```text
+water-supply-erp-system/
+│
+├── app/
+├── assets/
+├── components/
+├── screens/
+├── services/
+├── firebase.js
+├── eas.json
+├── package.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Business Impact
 
-To learn more about developing your project with Expo, look at the following resources:
+This application was developed to address real-world challenges in managing a water supply business.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+The system helps:
 
-## Join the community
+* Reduce manual record keeping
+* Improve delivery tracking
+* Simplify billing operations
+* Provide operational analytics
+* Improve overall business efficiency
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Screenshots
+
+### Dashboard
+
+* Customer management
+* Supply tracking
+* Business overview
+
+### Analytics
+
+* Weekly reports
+* Monthly reports
+* Performance monitoring
+
+### Supply History
+
+* Search functionality
+* Record filtering
+* Edit and delete operations
+
+> Screenshots can be found in the repository screenshots folder.
+
+---
+
+## Current Status
+
+🟢 Production Deployed
+
+🟢 Actively Used in Business Operations
+
+🟢 Under Continuous Development
+
+---
+
+## Future Improvements
+
+* Push notifications
+* Advanced reporting
+* Customer payment tracking
+* Multi-user role management
+* Cloud backup enhancements
+
+---
+
+## Author
+
+**Tanush Bhalla**
+
+B.Tech Computer Science Engineering (AI/ML)
+
+Passionate about Mobile Development, Machine Learning, and Building Real-World Software Solutions.
+
